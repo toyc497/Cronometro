@@ -1,0 +1,74 @@
+body{
+    background-color: #ffffff;
+}
+
+/*TIMER CONTAINER*/
+
+.timeContainer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.timeContainer h1{
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 60px;
+}
+
+/* BUTTONS CONTAINER PRINCIPAL*/
+
+.buttonsContainer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+/* BUTTONS SUBCONTAINER*/
+
+.buttonsContainer .btnIniciar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buttonsContainer .btnIniciar #iniciar{
+    width: 180px;
+    height: 80px;
+    margin-right: 20px;
+    background-color: #8354f0;
+}
+
+.buttonsContainer .btnIniciar #iniciar:hover{
+    cursor: pointer;
+    background-color: #6f3bed;
+}
+
+.buttonsContainer .btnParar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.buttonsContainer .btnParar #parar{
+    width: 180px;
+    height: 80px;
+    margin-left: 20px;
+    background-color: #7fe9c2;
+}
+
+.buttonsContainer .btnParar #parar:hover{
+    cursor: pointer;
+    background-color: #5cffc4;
+}
+
+.buttonsContainer button{
+    border-radius: 15px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
