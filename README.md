@@ -1,2 +1,3 @@
 # Cronometro
  
+![Screenshot](cronometroImage.png)
